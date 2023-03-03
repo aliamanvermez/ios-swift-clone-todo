@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct EmptyStateView: View {
+    @State var isNewTaskViewOn = false
     var body: some View {
+        
+        
+
+       
         NavigationView {
             ZStack {
                 BackgroundView()
@@ -17,7 +22,7 @@ struct EmptyStateView: View {
                     HStack {
                         Spacer()
                         Button(action: {
-                            print("test")
+                            self.isNewTaskViewOn = true
                         }, label: {
                             Text("+")
                                 .font(.system(.largeTitle))
@@ -32,6 +37,9 @@ struct EmptyStateView: View {
                                 radius: 3,
                                 x: 3,
                                 y: 3)
+                        .fullScreenCover(isPresented: self.$isNewTaskViewOn, content: {
+                            NewTaskView()
+                        })
                     }.padding()
                 }
             } .navigationTitle("To Do")

@@ -13,7 +13,7 @@ struct ToDoApp_cloneApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EmptyStateView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

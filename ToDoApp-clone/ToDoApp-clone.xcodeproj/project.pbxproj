@@ -18,6 +18,8 @@
 		EFAC6AB529B26DA1001FC1F5 /* ToDoApp_cloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC6AB429B26DA1001FC1F5 /* ToDoApp_cloneUITestsLaunchTests.swift */; };
 		EFAC6AC229B27207001FC1F5 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC6AC129B27207001FC1F5 /* EmptyStateView.swift */; };
 		EFAC6AC429B2736D001FC1F5 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC6AC329B2736C001FC1F5 /* BackgroundView.swift */; };
+		EFD0197029B27E61005770C5 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0196F29B27E61005770C5 /* NewTaskView.swift */; };
+		EFD0197229B28B6A005770C5 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD0197129B28B6A005770C5 /* TextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		EFAC6AB429B26DA1001FC1F5 /* ToDoApp_cloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp_cloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EFAC6AC129B27207001FC1F5 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 		EFAC6AC329B2736C001FC1F5 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		EFD0196F29B27E61005770C5 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		EFD0197129B28B6A005770C5 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 			children = (
 				EFAC6AC329B2736C001FC1F5 /* BackgroundView.swift */,
 				EFAC6AC129B27207001FC1F5 /* EmptyStateView.swift */,
+				EFD0196F29B27E61005770C5 /* NewTaskView.swift */,
+				EFD0197129B28B6A005770C5 /* TextFieldView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFAC6AC429B2736D001FC1F5 /* BackgroundView.swift in Sources */,
+				EFD0197029B27E61005770C5 /* NewTaskView.swift in Sources */,
+				EFD0197229B28B6A005770C5 /* TextFieldView.swift in Sources */,
 				EFAC6A9C29B26DA0001FC1F5 /* Persistence.swift in Sources */,
 				EFAC6A9F29B26DA0001FC1F5 /* ToDoApp_clone.xcdatamodeld in Sources */,
 				EFAC6AC229B27207001FC1F5 /* EmptyStateView.swift in Sources */,
